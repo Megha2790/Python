@@ -1,51 +1,40 @@
-## 1. Distribution of Ratings : 
-The average rating of restaurants is 3.63.
-The distribution of ratings is negatively skewed, indicating a slight skew towards lower ratings.
+# 📊 Business Insights – Zomato Data Analysis
+This analysis explores key factors influencing restaurant ratings, customer preferences, and cost behavior using Zomato data.
 
-## 2. Restaurant Types : 
-The most common restaurant types are:
-Dining: 110 entries
-Cafes: 23 entries
-Buffet: 7 entries
-Other: 8 entries
-Dining restaurants have the highest number of entries, while Buffet has the least.
+## 🧹 Data Preprocessing Highlights
+All null values were cleaned from key columns: Rate, Votes, and Cost.
 
-## 3. Average Rating by Restaurant Type :
-Other restaurants have the highest average rating (3.91).
-Dining restaurants have the lowest average rating (3.57).
+The Rate column was cleaned and converted to numeric format.
 
-## 4. Total Votes by Restaurant Type :
-Dining restaurants received the highest total votes (20,363).
-Buffet restaurants received the least total votes (3,028).
+The approx_cost(for two people) column was already in a usable numeric format (commas removed if any).
 
-## 5. Online Ordering :
-Restaurants with online ordering have higher ratings and votes compared to those without online ordering.
-This indicates that online ordering positively impacts customer engagement and satisfaction.
+## 🔍 Key Insights
+Online Ordering Boosts Engagement
 
-## 6. Table Booking : 
-Restaurants with table booking have higher ratings.
-However, restaurants without table booking received more votes, suggesting they might cater to a larger customer base.
+Restaurants offering online ordering receive higher votes and ratings than those that do not.
 
-## 7. Cost Analysis :   
-The average cost for two people is ₹528.38.
-There is a positive correlation (0.28) between cost and rating, indicating that higher-cost restaurants tend to have higher ratings.
+Indicates customer preference for convenience.
 
-## 8. Votes and Ratings : 
-There is a positive correlation (0.47) between votes and ratings.
-Restaurants with more votes generally have higher ratings, suggesting that popular restaurants are rated better.
+### Table Booking Dynamics
 
-## 9. Correlation Matrix : 
-Votes and Ratings: 0.47 (moderate positive correlation)
-The correlation matrix shows:
-Cost and Ratings: 0.28 (weak positive correlation)
-Cost and Votes: 0.35 (weak positive correlation)
+No Table Booking: Attracts more votes, likely due to accessibility or quick service.
 
-## 10. Restaurant Type Cost Analysis : 
-Buffet restaurants have a higher average cost compared to Other restaurants.
+With Table Booking: Associated with higher ratings, suggesting a better dining experience or premium offering.
 
-11. Online Ordering and Table Booking Percentages : 
-A significant percentage of restaurants offer online ordering.
-A smaller percentage of restaurants offer table booking.
+Cost vs. Rating Relationship
 
-These insights can help identify customer preferences, restaurant performance, and areas for improvement.
+A positive correlation (0.28) between cost for two and ratings was observed.
+
+As average spending increases, customer ratings tend to improve.
+
+This may imply that higher-cost restaurants offer better experiences or that customers equate price with quality.
+
+## 📌 Business Implications
+Restaurants should consider enabling online ordering to boost visibility and engagement.
+
+Balanced offerings between quick service (no booking) and premium service (table booking) can cater to broader audiences.
+
+High-end establishments should leverage their higher rating potential in marketing strategies.
+
+For platforms like Zomato, these factors can help optimize restaurant recommendations and ad placements.
 
